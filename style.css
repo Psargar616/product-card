@@ -33,7 +33,8 @@
   img, picture, video, canvas, svg {
     display: block;
     max-width: 100%;
-    border-radius: 0.5rem;
+    /* border-radius: 0.5rem; */
+    border-radius: 0.5rem 0 0 0.5rem;
   }
   /*
     7. Remove built-in form typography styles
@@ -58,11 +59,22 @@
     color: hsl(228, 12%, 48%);
     background-color: hsl(30, 38%, 92%);
     display: grid;
+    position: relative;
     min-height: 100vh;
     place-content: center;
     margin: 1rem;
+    
   }
 
+  .footer{
+   
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+   
+    height: 30px;
+    font-size: 14px;
+  }  
   .flex-grp{
     display: flex;
     gap:1rem;
@@ -142,3 +154,5 @@
     height: 16px;
     background-image: url(images/icon-cart.svg);
   }
+
+
