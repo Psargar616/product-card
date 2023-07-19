@@ -10,6 +10,14 @@ Thanks for checking out this front-end coding challenge.
 
 **To do this challenge, you need a basic understanding of HTML and CSS.**
 
+## My process
+Built with
+Semantic HTML5 markup
+CSS custom properties
+Flexbox
+CSS Grid
+Mobile-first workflow
+
 ## The challenge
 
 Your challenge is to build out this product preview card component and get it looking as close to the design as possible.
